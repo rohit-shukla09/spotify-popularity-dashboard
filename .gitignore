@@ -1,0 +1,7 @@
+spotify_full.csv
+spotify_features.csv
+__pycache__/
+.ipynb_checkpoints/
+.env
+universal_top_spotify_songs.csv
+cleaned_universal_top_songs.csv
