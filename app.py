@@ -8,7 +8,7 @@ import streamlit as st
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(APP_DIR, "spotify_popularity_pipeline.pkl")
-GEO_PATH = os.path.join(APP_DIR, "cleaned_universal_top_songs.csv")
+GEO_PATH = os.path.join(APP_DIR, "cleaned_dataset_small.csv")
 GREEN, DARK = "#1DB954", "#191414"
 
 st.set_page_config(page_title="Spotify Analytics & AI", layout="wide", page_icon="🎵")
